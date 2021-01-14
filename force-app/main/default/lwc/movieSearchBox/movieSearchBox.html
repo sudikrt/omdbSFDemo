@@ -1,0 +1,12 @@
+<template>
+    <lightning-layout class="" vertical-align="stretch">
+        <lightning-layout-item flexibility="auto" size="8" medium-device-size="8" large-device-size="8" class="slds-p-right_small">
+            <lightning-input label=" " variant="label-hidden" value={movieSearchText} onchange={onSearchTextChange} onkeyup={handleOnKeyUp}
+                placeholder={label.movieSearchBoxPlaceHolder} name="movieSearchText" required>
+            </lightning-input>
+        </lightning-layout-item>
+        <lightning-layout-item flexibility="auto" padding="horizontal-small" size="4" medium-device-size="4" large-device-size="4" class="">
+            <lightning-button label={label.movieSearchBtnLabel} onclick={handleOnSearchClick}></lightning-button>
+        </lightning-layout-item>
+    </lightning-layout>
+</template>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Movie_Error_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Movie_Error_Text</shortDescription>
+        <value>Error :</value>
+    </labels>
+    <labels>
+        <fullName>Movie_List_Empty_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Movie_List_Empty_Text</shortDescription>
+        <value>No movies found :(</value>
+    </labels>
+    <labels>
+        <fullName>Movie_Search_Box_Place_Holder</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Movie_Search_Box_Place_Holder</shortDescription>
+        <value>Type a movie name</value>
+    </labels>
+    <labels>
+        <fullName>Movie_Search_Button_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Movie_Search_Button_Label</shortDescription>
+        <value>Search</value>
+    </labels>
+    <labels>
+        <fullName>Movie_Search_Invalid_Credentials</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Movie_Search_Invalid_Credentials</shortDescription>
+        <value>Invalid Endpoint verify your named credentials</value>
+    </labels>
+    <labels>
+        <fullName>Movie_Search_Unknown_Error_Message</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Movie_Search_Unknown_Error_Message</shortDescription>
+        <value>Unknown Error occurred try again</value>
+    </labels>
+    <labels>
+        <fullName>Movie_Search_Util_Btn_Next</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Movie_Search_Util_Btn_Next</shortDescription>
+        <value>Next</value>
+    </labels>
+    <labels>
+        <fullName>Movie_Search_Util_Btn_Previous</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Movie_Search_Util_Btn_Previous</shortDescription>
+        <value>Previous</value>
+    </labels>
+    <labels>
+        <fullName>Movie_Search_Util_Header</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Movie_Search_Util_Header</shortDescription>
+        <value>Search your favourite movie on OMDB.</value>
+    </labels>
+    <labels>
+        <fullName>NamedCred_OMDBAPI_DevName</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>NamedCred_OMDBAPI_DevName</shortDescription>
+        <value>OMDBAPI</value>
+    </labels>
+</CustomLabels>

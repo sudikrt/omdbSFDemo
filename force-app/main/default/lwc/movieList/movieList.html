@@ -1,0 +1,20 @@
+<template>
+    <div class="slds-m-around_small">
+        <template if:true={hasMovies}>
+            <lightning-layout class="slds-m-bottom_small" multiple-rows vertical-align="stretch"
+                horizontal-align="space">
+                <template for:each={movies} for:item="eachLineItem">
+                    <lightning-layout-item flexibility="auto" padding="around-small" size="12" medium-device-size="3"
+                        large-device-size="3" class="slds-m-around_xx-small movie-card" key={eachLineItem.imdbID}>
+                        <c-movie-card movie={eachLineItem}></c-movie-card>
+                    </lightning-layout-item>
+                </template>
+            </lightning-layout>
+        </template>
+        <template if:false={hasMovies}>
+            <div class="empty-list-wrapper">
+                <span class="empty-list-message">{label.emptyListMessage}</span>
+            </div>
+        </template>
+    </div>
+</template>

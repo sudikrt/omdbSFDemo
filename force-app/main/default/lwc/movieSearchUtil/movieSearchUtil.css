@@ -1,0 +1,13 @@
+.empty-list-message {
+    color : darkgoldenrod;
+    font-size: 1rem;
+}
+.empty-list-wrapper {
+    text-align: center;
+}
+.button-wrapper {
+    text-align: center;
+}
+.header-wrapper {
+    font-size: 1.5rem;
+}

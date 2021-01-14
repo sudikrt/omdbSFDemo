@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>MovieSearchUtil</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>movieCard</members>
+        <members>movieSearchBox</members>
+        <members>movieList</members>
+        <members>movieSearchUtil</members>
+        <name>LightningComponentBundle</name>
+    </types>
+    <types>
+        <members>Movie_Search_Unknown_Error_Message</members>
+        <members>Movie_Error_Text</members>
+        <members>Movie_Search_Invalid_Credentials</members>
+        <members>Movie_Search_Util_Btn_Previous</members>
+        <members>Movie_Search_Util_Btn_Next</members>
+        <members>Movie_Search_Util_Header</members>
+        <members>Movie_Search_Button_Label</members>
+        <members>Movie_Search_Box_Place_Holder</members>
+        <members>Movie_List_Empty_Text</members>
+        <members>NamedCred_OMDBAPI_DevName</members>
+        <name>CustomLabel</name>
+    </types>
+    <types>
+        <members>OMDB</members>
+        <name>CspTrustedSite</name>
+    </types>
+        <types>
+        <members>OMDBAPI</members>
+        <name>NamedCredential</name>
+    </types>
+
+    
+    <version>50.0</version>
+</Package>

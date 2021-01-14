@@ -1,0 +1,32 @@
+<template>
+    <template if:true={isLoading}>
+        <div class="spinner-container">
+            <lightning-spinner alternative-text="Loading..." size="medium">
+            </lightning-spinner>
+        </div>
+    </template>
+    <div class="slds-m-around_small">
+        <div class="header-wrapper slds-p-around_small">
+            <span class="">{label.header}</span>
+        </div>
+        <lightning-layout class="" multiple-rows vertical-align="stretch">
+            <lightning-layout-item flexibility="auto" padding="around-small" size="12" medium-device-size="8" large-device-size="8" class="">
+                <c-movie-search-box search-text={movieSearchText} onsearchclicked={handleOnSearchClick} onsearchtextchanged={onSearchTextChange}></c-movie-search-box>
+            </lightning-layout-item>
+            <lightning-layout-item flexibility="auto" padding="around-small" size="12" medium-device-size="12" large-device-size="12" class="">
+                <template if:true={isSuccess}>
+                    <c-movie-list movies={movies}></c-movie-list>
+                </template>
+                <template if:true={error}>
+                    <div class="empty-list-wrapper">
+                        <span class="empty-list-message">{label.errorText} &nbsp; {error}</span>
+                    </div>
+                </template>
+            </lightning-layout-item>
+            <lightning-layout-item if:true={isSuccess} flexibility="auto" padding="around-small" size="12" medium-device-size="12" large-device-size="12" class="button-wrapper">
+                <lightning-button label={label.btnPrevious} class="slds-m-horizontal_small" onclick={handlePrevious} disabled={isPreviousDisabled}></lightning-button>
+                <lightning-button label={label.btnNext} class="slds-m-horizontal_small" onclick={handleNext} disabled={isNextDisabled}></lightning-button>
+            </lightning-layout-item>
+        </lightning-layout>
+    </div>
+</template>

@@ -1,0 +1,13 @@
+.movie-card {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+}
+.empty-list-message {
+    color : darkgoldenrod;
+    font-size: 1rem;
+}
+.empty-list-wrapper {
+    text-align: center;
+}

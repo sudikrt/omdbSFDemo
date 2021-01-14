@@ -1,0 +1,73 @@
+.info-wrapper {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #dae2df;
+    overflow: hidden;
+    width: 100%;
+}
+.title-text{
+    margin-top: .25rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color : black;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.year-text {
+    margin-bottom: .5rem;
+}
+.card-wrapper {
+    text-align: center;
+}
+.img-wrap {
+    line-height: 130px;
+}
+@media only screen and (max-width: 30em) {
+    .title-text{
+        margin-top: .25rem;
+        font-size: .5rem;
+    }
+    .year-text {
+        margin-bottom: .25rem;
+        font-size: 8px;
+    }
+    .img-wrap {
+        line-height: 200px;
+    }
+}
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+    .img-wrap {
+        line-height: 130px;
+    }
+    .title-text{
+        margin-top: .5rem;
+        font-size: .75rem;
+    }
+    .year-text {
+        margin-bottom: .25rem;
+        font-size: 8px;
+    }
+}
+@media only screen 
+and (min-device-width: 1024px) 
+and (max-device-width: 1366px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .img-wrap {
+        line-height: 130px;
+    }
+    .title-text{
+        margin-top: .5rem;
+        font-size: .75rem;
+    }
+    .year-text {
+        margin-bottom: .25rem;
+        font-size: 8px;
+    }
+}
