@@ -12,6 +12,10 @@
         <name>LightningComponentBundle</name>
     </types>
     <types>
+        <members>TestMovieApp</members>
+        <name>AuraDefinitionBundle</name>
+    </types>
+    <types>
         <members>Movie_Search_Unknown_Error_Message</members>
         <members>Movie_Error_Text</members>
         <members>Movie_Search_Invalid_Credentials</members>
